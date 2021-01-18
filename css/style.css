@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+}
+
+.navBar {
+  width: 100%;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+  padding: 20px;
+}
+.navBar p {
+  margin-right: 15px;
+  font-size: 15px;
+  margin-top: 3px;
+}
+.navBar a {
+  text-decoration: none;
+  color: black;
+}
+.navBar i {
+  margin-right: 15px;
+  font-size: 25px;
+  color: grey;
+}
+
+.navBar img {
+  width: 3%;
+  border-radius: 100%;
+  margin-right: 15px;
+  border: 1px solid black;
+}
+
+/* main box start */
+.mainBox{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    /* background-color: blanchedalmond; */
+}
+.mainBox img{
+    width: 50%;
+}
+
+
+/* search box */
+.mainBox .SearchBox{
+    width: 80%;
+    border: 0.1px solid grey;
+    margin: 0 auto;
+    border-radius: 30px;
+    padding: 10px 0px;
+}
+.mainBox .SearchBox input{
+    height: 20px;
+    width: 90%;
+    border: none;
+    font-size: 18px;
+}
+
+.mainBox .SearchBox .fa-search{
+    color: grey;
+    font-size: 20px;
+}
+.mainBox .SearchBox .fa-microphone{
+    color: #4285F4 ;
+    font-size: 20px;
+}
+
+/* buttons */
+.twoButtons{
+    width: 30%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.twoButtons button{
+    border: none;
+   width: 48%;
+   height: 30px;
+   cursor: pointer;
+}
+
+/* language */
+.language{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 12px;
+    margin-top: 30px;
+}
+.language .blue{
+    color: #4285F4;
+    font-size: 10px;
+    cursor: pointer;
+}
